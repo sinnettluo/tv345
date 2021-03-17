@@ -6,8 +6,9 @@ on:
       - main
   schedule:
     - cron: '30 3 * * *'
-    - cron: '15 10 * * *'
-    - cron: '15 13 * * *'
+    - cron: '00 10 * * *'
+    - cron: '00 13 * * *'
+    - cron: '00 14 * * *'
     
 jobs:
 
