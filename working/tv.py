@@ -41,7 +41,7 @@ for count in range(1,10):
         locals()['z'+str(count)]=''
 file=open(r'./tv.m3u', mode='w', encoding='utf-8')
 file.write('#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-MEDIA-SEQUENCE:0\n#EXT-X-ALLOW-CACHE:YES\n#EXT-X-TARGETDURATION:20')
-file.write('\n#EXTINF:0,【翡翠台】線路1'+z1+m3u_URL1+'\n#EXTINF:0,【翡翠台】線路2'+z1+m3u_URL1+'&p=2'+'\n#EXTINF:0,【翡翠台】線路3\n'+'https://cdn.hkdtmb.com/hls/81/index.m3u8')
+file.write('\n#EXTINF:0,【翡翠台】線路1'+z1+m3u_URL1+'&p=2'+'\n#EXTINF:0,【翡翠台】線路2'+z1+m3u_URL1+'\n#EXTINF:0,【翡翠台】線路3\n'+'https://cdn.hkdtmb.com/hls/81/index.m3u8')
 file.write('\n#EXTINF:0,【無線新聞台】線路1'+z2+m3u_URL2+'\n#EXTINF:0,【無線新聞台】線路2\n'+'https://cdn.hkdtmb.com/hls/83/index.m3u8'+'\n#EXTINF:0,【明珠台】\n'+'https://cdn.hkdtmb.com/hls/84/index.m3u8')
 file.write('\n#EXTINF:0,【J2】線路1'+z3+m3u_URL3+'\n#EXTINF:0,【J2】線路2\n'+'https://cdn.hkdtmb.com/hls/82/index.m3u8')
 file.write('\n#EXTINF:0,【有線新聞台】線路1'+z4+m3u_URL4+'\n#EXTINF:0,【有線新聞台】線路2\n'+'http://livetv.dnsfor.me/channel.5.m3u8'+'\n#EXTINF:0,【HBO電影】'+z5+m3u_URL5)
